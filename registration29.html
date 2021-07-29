@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Registration!!!!!! </title>
+    <link rel="icon" href="https://img-premium.flaticon.com/png/512/3200/premium/3200748.png?token=exp=1627537544~hmac=348442f34bde46921f34e25197bd3718" type="image/gif" sizes="16x16">
+<style>
+.form-container{
+    width: 75%;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+</style>
+    <script>
+        function myFunction() {
+          document.getElementById("myloc").style.visibility = "hidden";
+        }
+        </script>
+</head>
+<body>
+<u><center><cite><h1>Students Registration Portal !!!!!!!!!</h1></cite></center></u> 
+<hr><hr>   
+
+<form>
+
+<div class="form-container">
+
+    <!--------Area of interest------->
+    Area Of Interest:<br>
+    <select>
+        <option>Select</option>
+        <option>IT</option>
+        <option>BPO</option>
+    </select>
+    <br><br>
+
+    <!----------email-->
+    EmailAddress:<br>
+    <input type="email"><br><br>
+
+    <!------------password-->
+    Password:<br>
+    <input type="password"><br><br>
+
+    <!--------confirm password-->
+    Confirm Password:<br>
+    <input type="password"><br><br>
+
+    <!-------------title-->
+    Title:<br>
+    <select>
+        <option>select</option>
+        <option>Dr.</option>
+        <option>Mr.</option>
+        <option>Ms.</option>
+    </select><br><br>
+  
+    <!----------first name-->
+    First Name:<br>
+    <input type="text" name="fstname" placeholder="First Name" required>
+
+    <!-------middle name-->
+    <span style="margin-left: 50px;">
+    Middle Name:
+</span>
+    <input type="text" name="mdlname" placeholder="Middle Name" required;"><br><br>
+
+    <!-------last name-->
+    Last Name:<br>
+    <input type="text" name="lstname" placeholder="Last Name"><br><br>
+
+    <!----------contact Number-->
+    Contact Number:
+    <select required>
+        <optgroup>
+            <option>select</option>
+            <option>+91(India)</option>
+            <option>+92(Pakistan)</option>
+            <option>+93(srilanka)</option>
+            <option>+94(Bangladesh)</option>
+            <option>+95(nepal)</option>
+            <option>+96(UAE)</option>
+            <option>+97(afrika)</option>
+        </optgroup>
+    </select>
+    <input type="tel" placeholder="Contact Number"><br><br>
+
+    <!-----DOB---->
+    Date Of Birth:<br>
+<input type="date"><br><br>
+
+    <!----------pan card num-->
+    Pan Card Number:<br>
+    <input type="tel"><br><br>
+
+    <!-----------skills-->
+    Skills:<br>
+    <input type="text"><br><br>
+
+    <!----------preferred locations-->
+    
+   <p id="myloc">
+  
+    <input type="checkbox" name="loc"><label for="loc">Hyderabad</label>
+    <input type="checkbox" name="loc"><label for="loc">khammam</label>
+    <input type="checkbox" name="loc"><label for="loc">Bangalore</label>
+    <input type="checkbox" name="loc"><label for="loc">Vizag</label>
+    <input type="checkbox" name="loc"><label for="loc">Mumbai</label>
+    <input type="checkbox" name="loc"><label for="loc">Delhi</label>
+    <input type="checkbox" name="loc"><label for="loc">Ahmedabad</label>  </p>
+
+    IF YOU ARE OK TO RELOCATE ANYWHERE IN INDIA THEN CHOOSE THE BELOW BUTTON  (OR) SELECT ANY 3 LOCATIONS FROM ABOVE
+   
+   <button type="button" onclick="myFunction()">Anywhere In INDIA</button><br><br><br>
+
+   <!-----current location-->
+   CurrentLocation:<br>
+   <input type="text"><br><br>
+
+    <!------upload files-->
+    Upload The Following:
+    <ol>
+        <li>Resume</li>
+        <li>Photo</li>
+        <li>Aadhaar Card</li>
+    </ol>
+    <input type="file" id="files" multiple><br><br><br>
+
+    <!--------video resume-->
+    Video Resume:
+    <input type="text" placeholder="upload video resume link here" ><br><br>
+    <input type="checkbox"><label>I agree to iBegin Privacy Notice & Terms and Conditions.</label><br><br>
+    <input type="reset">
+    <input type="submit">
+
+    <a href="submit29.html">Exam Link</a>
+
+</div>   
+ 
+</form>
+</body>
+</html>
