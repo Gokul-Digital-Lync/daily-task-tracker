@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"href="crud.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD OPERATIONS USING JS.</title>
+   
+</head>
+<body>
+    <script src="crud.js">      
+    </script>
+
+    <table>
+        <tr>
+            <td>
+                <!-- form to take user inputs -->
+
+                <form onsubmit="onformsubmit();" >
+                    <div id="form">
+                     <div>
+                         <label>Full Name</label>
+                         &nbsp;   &nbsp&nbsp&nbsp <input type="text" name="fullName" id="fullname"><br><br>
+                     </div>
+                     <div>
+                        <label>EMP CODE</label>
+                        &nbsp;&nbsp; <input type="text" name="emp code" id="empcode"><br><br>
+                    </div>
+                    <div>
+                        <label>Salary</label>
+                        &nbsp;  &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  <input type="text" name="salary" id="salary"><br><br>
+                    </div>
+                    <div>
+                        <label> City</label>
+                        &nbsp;  &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="city" id="city"><br><br>
+                    </div>
+                    <div>
+                        <label>Blood Group</label>
+                        &nbsp;  &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="bloodGroup" id="bloodGroup"><br><br>
+                    </div>
+                    <!-- <div>
+                        <label>Time Stamp</label>
+                        &nbsp;  &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="timestamp" id="timestamp"><br><br>
+                    </div> -->
+                    <div class="form-action-button">
+                        <input type="submit">
+                    </div>
+                </div>
+                </form>
+            </td>
+            <td>
+                <table class="field" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Full-Name</th>
+                            <th>&nbsp&nbsp&nbspEMP-CODE</th>
+                            <th>&nbsp&nbsp&nbspSalary</th>
+                            <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;City</th>
+                            <th>&nbsp&nbsp;&nbsp;BloodGroup</th>
+                            <th>&nbsp&nbsp;&nbsp;Timestamp</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabody">
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
